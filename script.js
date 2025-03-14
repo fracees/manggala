@@ -55,7 +55,7 @@ var c = document.getElementById('alx');
        a.fill()
    }
    setInterval(function () {
-       a.fillStyle = "rgba(0, 0, 0, 0.2)";
+       a.fillStyle = "rgba(0,0,0,.2)";
        a.fillRect(0, 0, WIDTH, HEIGHT);
        for (i = v; i--;) {
            f = e[i];
