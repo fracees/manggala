@@ -14,16 +14,16 @@ var c = document.getElementById('alx');
    Y = 6.3;
  
    for (i = 0; i < Y ; i += 0.2) 
-     h.push([WIDTH / 2  + 210 * Math.pow(Math.sin(i), 3), 
-       HEIGHT / 2  + 13 * -(15 * C(i) - 5 * C(2 * i) - 2 * C(3 * i) - C(4 * i))]);
+     h.push([WIDTH / 2  + 200 * Math.pow(Math.sin(i), 3), 
+       HEIGHT / 2  + 12 * -(15 * C(i) - 5 * C(2 * i) - 2 * C(3 * i) - C(4 * i))]);
  
    for (i = 0; i < Y  ; i += 0.4) 
-     h.push([WIDTH / 2  + 150 * Math.pow(Math.sin(i), 3), 
-       HEIGHT / 2  + 9 * -(15 * C(i) - 5 * C(2 * i) - 2 * C(3 * i) - C(4 * i))]);
+     h.push([WIDTH / 2  + 140 * Math.pow(Math.sin(i), 3), 
+       HEIGHT / 2  + 8 * -(15 * C(i) - 5 * C(2 * i) - 2 * C(3 * i) - C(4 * i))]);
  
    for (i = 0; i < Y  ; i += 0.8) 
-     h.push([WIDTH / 2  + 90 * Math.pow(Math.sin(i), 3), 
-       HEIGHT / 2  + 5 * -(15 * C(i) - 5 * C(2 * i) - 2 * C(3 * i) - C(4 * i))]);
+     h.push([WIDTH / 2  + 80 * Math.pow(Math.sin(i), 3), 
+       HEIGHT / 2  + 4 * -(15 * C(i) - 5 * C(2 * i) - 2 * C(3 * i) - C(4 * i))]);
  
    for (i = 0; i < v;) {
        x = R() * WIDTH;
